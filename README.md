@@ -1,4 +1,4 @@
-# DICE-GAME
+# DICE GAME
 
 Tried Simple Dice Game using Canvas.
 
