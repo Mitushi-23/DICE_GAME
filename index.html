@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dice.css">
+    <title>DICE GAME</title>
+</head>
+<body>
+    <canvas id="mycanvas"  height="120px" width="400px"></canvas>
+    <div class="container">
+        <div class="contain1">
+        <p>X</p>
+    <canvas id="mycanvas1" width="500" height="500">
+        I am sorry your browser is not supporting canvas. <!--Fallback Content-->
+    </canvas>
+</div>
+<div class="contain2">
+    <p>Y</p>
+    <canvas id="mycanvas2" width="500" height="500">
+        I am sorry your browser is not supporting canvas. <!--Fallback Content-->
+    </canvas>
+</div>
+</div>
+    <h1 id="wins" onclick="win()">Reload</h1>
+    <h3 class="content"></h3>
+    <script src="dice.js"></script>
+</body>
+</html>

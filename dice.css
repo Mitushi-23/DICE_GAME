@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+#mycanvas1{
+    
+    background-color: red;
+    border-radius: 50px;
+}
+
+#mycanvas2{
+  
+    background-color: red;
+    border-radius: 50px;
+    
+}
+.contain1, .contain2{
+    margin: 3%;
+}
+#wins{
+    color: #dca91a;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.container{
+    display: flex;
+  
+    justify-content:center;
+    align-items: center;
+}
+p{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1380px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
