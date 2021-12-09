@@ -1,4 +1,4 @@
-# DICE GAME
+# [DICE GAME](https://mitushi-23.github.io/DICE_GAME/)
 
 Tried Simple Dice Game using Canvas.
 
